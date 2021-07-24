@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+    
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+    .first_aid{
+      
+     
+       border-radius: 10px;
+      
+      
+        
+    }
+    .image1{
+        margin-left: 60% ;
+        width: 100px;
+        height: 100px;
+       margin-top: 1%;
+    }
+    
+    .first_aid h1{
+        font-family: cursive;
+        text-align: center;
+        position: absolute;
+        margin-left: 40%;
+        margin-top: 2%;
+        color: red;
+        font-weight: 900;
+        font-size: 50px;
+    }
+    
+    .container {
+        background-color: rgb(141, 169, 243);;
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+        flex-wrap: wrap;
+
+    }
+    .container2 {
+        background-color: rgb(141, 169, 243);
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        flex-wrap: wrap;
+
+    }
+    .container3 {
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 5px;
+        justify-content: center;
+        margin-top: 5%;
+        flex-wrap: wrap;
+
+    }
+    .card{
+        background: white;
+        width: 300px;
+        height: 550px;
+        margin: 10px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+        font-family: roboto;
+        text-align: center;
+    }
+    body{
+        background-color: white;
+    }
+    h2{
+        background-color: rgb(2, 4, 12);
+        border-radius: 8px;
+        font-size: 50px;
+        text-align: center;
+        color: white;
+    }
+    
+    
+    .temp1{
+        display: flex;
+        background-color: rgb(110, 145, 241);
+        border-radius: 5px;
+    }
+    .temp1 img{
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+    .temp1 p{
+        margin-left:3%;
+        margin-top: 3%;
+        text-align: justify;
+       
+    }
+    .card9 h1{
+        margin-left: 5%;
+        font-weight: bolder;
+        margin-right: 5%;
+        padding: 5px;
+        font-size: 30px;
+        color: #8b0522
+    }
+    .card9 p, li{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5px;
+        font-size: 19px;
+        font-weight: bold;
+        color: #040214;
+        text-align: justify;
+
+    }
+    .para1{
+        font-size: 19px;
+        font-weight: bold;
+        color: #f3ebea;
+        text-align: justify;
+    }
+    .card-image{
+        background-color: rgb(66, 6, 66);
+        height: 300px;
+        margin-bottom: 15px;
+        background-size: cover;
+        border-radius: 15px 15px 0 0;
+    }
+    .card-1{
+        background-image: url('https://s3.amazonaws.com/external_clips/attachments/2810090/original/dog_first_aid_kit_Gauze.jpg?1568928499.jpeg');
+    }
+
+    .card-2{
+        background-image: url('https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2016/08/10140212/dog_first_aid_kit_eco-infused_bandage.jpg');
+    }
+
+    .card-3{
+        background-image: url('https://s3.amazonaws.com/external_clips/attachments/2810103/original/dog_first_aid_kit_self-adherent_wrap_tape.jpg?1568928503');
+    }
+
+    .card-4{
+        background-image: url('https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2016/08/10143355/61kCx-aDxYL._SL1000_.jpg');
+    }
+
+    .card-5{
+        background-image: url('https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2016/08/10142137/51w-OYJsKL.jpg');
+    }
+
+    .card-6{
+        background-image: url('https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2016/08/10142752/71nz-KSCYZL._SL1500_.jpg');
+    }
+
+    
+    .card-0{
+        background-image: url('https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2016/08/10142907/61-jZv67UoL._SL1500_.jpg');
+    }
+
+    .card-7{
+        background-image: url('https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2016/08/10143123/61TAaIAKikL._SL1000_.jpg');
+    }
+    .card h3{
+        text-align: center;
+        padding: 10px;
+    }
+    .card p{
+        padding: 10px;
+    }
+
+    .card9{
+        width: 100%;
+    }
+
+    .card:hover{
+        background-color: rgb(2, 6, 17);
+        color: white;
+        cursor: pointer;
+        transform: scale(1.03);
+        transition: all 1s ease;
+    }
+</style>
+<body>
+
+    <div id="background1">
+
+        <div id="content">    
+        <table style="height:60px;color:white;font-size:15px;background:#1b4f72;width:100%">
+        <tr style="width:70px">
+        <td>
+        <img style="margin-left:20px;margin-top:5px;" height="50px" width="126px"  src="logo11.jpg" />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        </td>
+        <td >
+        
+        <b><a href="HOME_PAGE.html">HOME</a></b>
+        </td>
+        <td >
+        &emsp;
+        <b><a href="ABOUT_US.html">ABOUT_US</a></b>&emsp;
+        </td>
+        <td >
+        <b><a href="event2.html">EVENTS</a></b>&emsp;
+        </td>
+        
+        <td >
+        <b><a href="first_aid.html">FIRSTAID/HELPLINE</a></b>&emsp;
+        </td>
+        
+        <td >
+        <b><a href="donation1.html">DONATION</a></b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        </td>
+        
+        </tr>
+        </table> 
+        
+    
+    <div class="first_aid"><h1> FIRST-AID </h1> <img class="image1" src="headfirst.png">
+       </div>
+       <h2> Dogs First Aid Kit Essentials </h2>
+       <div class="temp1">
+         <img src="firstaid.jpeg" width="450px" height="300px">
+        <p class="para1"> Emergencies can strike at any time, whether you’re at home, running errands around town, or traveling. <br>When they do occur, you should always be prepared with a dog first-aid kit, in addition to your human supplies.
+
+            This list will help you assemble everything you’ll need in a first-aid kit for a canine medical emergency or health issue. <br>Aside from these items, be sure to remember to include important paperwork, including a copy of medical records, vaccination records, and emergency phone numbers.</p>
+    </div>
+ 
+       
+        <section class="container">
+    <div class="card">
+            <div class="card-image card-1"></div>
+            <h1>Gauze</h1>
+            <p> This lightweight, latex-free white medical gauze is a great essential first-aid item to have around in the event of an injury to either you or your dog. Price: $13</p>
+        </div>
+
+        <div class="card">
+            <div class="card-image card-2"></div>
+            <h1>Non-Stick Bandages</h1>
+            <p> This pack of six self-adhering water-repellent bandages works well on dogs without sticking to their fur. Consumers appreciate these low-cost bandages and praise their successful non-slip support. Price: $10</p>
+        </div> 
+
+        <div class="card">
+            <div class="card-image card-3"></div>
+            <h1>Adhesive Tape</h1>
+            <p> These self-adhering bandages are elastic and breathable and each roll measures five yards long, ensuring that you’ll never run out in the event of a first aid emergency. Price: $10
+
+            </p>
+        </div>
+        <!--here-->
+        <div class="card">
+            <div class="card-image card-0"></div>
+            <h1>Tweezers</h1>
+            <p>Tweezers are a must-have for any first aid kit, and with stainless steel slant tips, this precise pair will be helpful when picking splinters out of your dog’s paw, or ticks out of their fur. Price: $10 </p>
+        </div>
+
+
+      
+    
+
+ </section>
+
+
+
+ <section class="container2">
+    <div class="card">
+            <div class="card-image card-4"></div>
+            <h1>Cotton Balls</h1>
+            <p>These absorbent organic cotton balls are super soft and can function in either the application of medicine or the cleaning up of cuts or wounds belonging to your or your pup. Price: $3</p>
+        </div>
+
+        <div class="card">
+            <div class="card-image card-5"></div>
+            <h1>Medicine Pillbox</h1>
+            <p>The sturdy, BPA-free pill organizer is moisture-proof and has eight large compartments, making it especially effective for dogs taking multiple medications. Price: $13 </p>
+        </div> 
+
+        <div class="card">
+            <div class="card-image card-6"></div>
+            <h1>Scissors</h1>
+            <p> The 3-pack of 8-inch scissors work for both left and right-handed individuals and they may come in handy to help cut bandages or gauze to size when needed. Price: $10</p>
+        </div>
+
+        <div class="card">
+            <div class="card-image card-7"></div>
+            <h1>Magnifying Glass</h1>
+            <p> This lightweight LED-illuminated glass can magnify cuts, wounds, splinters, and more by up to three times with a jeweler’s magnifying glass. Price: $15</p>
+        </div>
+      
+    
+
+ </section>
+ <section class="container3">
+    <div class="card9">
+        
+        <h1><b>STEPS TO FOLLOW: </b></h1>
+        <p> Recognising an emergency
+            If you are worried, always call your vet for advice.
+            
+            A key point for first aid is learning to recognise an emergency. Here are some emergency situations where you should definitely take your dog to the vet:
+            
+            If they:</p>
+        <ul><li>aren’t breathing or are having difficulty breathing</li>
+            <li> are unresponsive</li>
+            <li>have collapsed and can’t get up</li>
+            <li>are having a fit/seizure</li>
+            <li>may have broken bones</li>
+            <li>are having difficulty moving or coordinating movements</li>
+            <li>may have eaten something toxic</li>
+            <li>have been vomiting or passing diarrhoea for more than 24 hours.</li>
+            
+            </ul>
+            <p> In an emergency, what should I do first?<BR>
+                1. Keep calm and assess the scene for any additional threats to you or your pet. This is important for everyone's safety.<br>
+                
+                <br>2. Keep your dog warm (except in the case of heat stroke), as quiet as possible, and keep movement to a minimum, especially if there is possible trauma, broken limbs, or any neurological symptoms.<br>
+                
+                <br>3. Contact your veterinary hospital, inform them of the situation and get specific first aid advice.<br>
+                
+                <br>4. To safely move or transport an injured dog, get somebody to help you. For a small dog, put him into his carrier (remove the top for easy and safe access to the carrier; DO NOT push an injured dog through the small door or opening), or use a suitable container such as a strong cardboard box. For a larger dog, use a makeshift stretcher made out of some rigid material such as an appropriate sized, sturdy piece of wood. Carefully maneuver your dog onto a blanket or coat so that he can be gently moved to the carrier, box, or stretcher.<br>
+                
+                <br>5. Get to a veterinary hospital as soon as possible.<br>
+                
+                <br>What are some tips on restraining or calming an injured dog?<br>
+                The majority of injured animals will be panicked and/or disoriented.<br>
+                
+                <br><i style="color: brown;">"The stress of an emergency can cause an otherwise friendly animal to act aggressively."</i><br><br>
+                The stress of an emergency can cause an otherwise friendly animal to act aggressively. Although most panicky dogs will respond to a calm, soothing voice, use caution when approaching or touching any injured animal. It is important to ensure the safety of all rescue personnel that are attempting to assist with an injured animal. Some of the types of restraint that can ensure the safety of both dog and humans include:<br>
+                <br>
+                <br>Muzzling. You can create a muzzle out of a leash, belt, sock, rope, or strap. Loop the cord around the dog's muzzle and tighten it to prevent the animal from biting. Dogs have only one muscle to open their jaw so once the jaw is closed, it is relatively easy to hold it safely shut. Animals can breathe through their nostrils unless the nose is injured or obstructed.
+                Wrapping. You can wrap the body of an unmanageable pet in a blanket or towel. Be sure to keep the head exposed and do not constrict the trachea.
+                Immobilizing: If you are suspicious of spinal injury, lay the animal on a board and secure it on the board with straps or cords. Pay special attention to immobilizing the head and neck.
+                </p>
+   
+   
+   
+        </div> 
+ </section>
+    
+</body>
+</html>
